@@ -1,7 +1,3 @@
-#P1.1
-# velocity of object after t seconds
-#  - v(t) = gt + VInit
-
 g = -9.81
 
 def velocity(t, v0):
@@ -20,6 +16,6 @@ def main():
         v0 = float(input("Enter Initial Velocity: "))
         final_velocity = velocity(t, v0)
 
-        print(final_velocity)
+        print(f"Final velocity = {final_velocity} meters / second")
 
 main()
