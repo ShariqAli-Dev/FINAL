@@ -47,7 +47,7 @@ def main():
   else:
     print('Player {} wins the game.'.format(result))
     print('---------------------------')
-main()
+  main()
 def playgame(board):
   while True:
   # Ask player X for a board spot
